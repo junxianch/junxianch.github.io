@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* nav a.active */
+.navbar a.active {
+  background-color: #1abc9c;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.side a{
+  text-decoration: none;
+  color:Black;
+}
+
+/* side a.active */
+.side a.active {
+  color: red;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 80%; /* IE10 */
+  flex: 80%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* image, just for this example */
+.myimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: #ddd;
+  
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+	}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Richie's Website</h1>
+  <p>A website created by Richie and his Mommy</p>
+</div>
+
+<div class="navbar">
+  <a href="..\index.html">Home Page</a>
+  <a href="#">Read & Recite</a>
+  <a href="#">Code Learning</a>
+  <a href="#">Learning App</a>
+  <a href="#">Cartoon</a>
+  <a href="default.html"; class="active">Typing</a>
+  <a href="#">Miscellaneous</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <ul>
+	  <li>
+        <h3><a href="default.html">Typing Home</a></h3>
+      </li>
+      <li>
+        <h3><a href="GreekMyths.html">Greek Myths</a></h3>
+      </li>
+      <li>
+        <h3><a href="KidsMoneyBook.html"; class="active">Money Book</a></h3>
+      </li>
+        
+      </li>
+      <li>
+        <h3>Poem </h3>
+        <p><a href="https://codeprojects.org/Nvr3Mhyeq2098gxYXfILxJLfabNcSrBGCxRoa5PcO2Q/Sonnet%20XX.html">Sonnet XX</a></p>
+        <p><a href="https://codeprojects.org/Nvr3Mhyeq2098gxYXfILxJLfabNcSrBGCxRoa5PcO2Q/Sonnet%20XXI.html">Sonnet XXI</a></p>
+        <p><a href="https://codeprojects.org/Nvr3Mhyeq2098gxYXfILxJLfabNcSrBGCxRoa5PcO2Q/Sonnet%20XXV.html">Soneet XXV</a></p>
+      </li>
+
+    </ul>
+    </div>
+	
+    <div class="main">
+      <h3>A Kids Book About Money</h3>
+      <p>Hi, my name is Richie(original Adam).</p>
+      <p>And this is a kids book about money.</p>
+      <p>Let’s try something… say:  dee-neh-roh</p>
+      <p>Congratulations,  now you speak Spanish!</p>
+      <p>“Dinero” is Spanish for…</p>
+      <p>Money</p>
+      <p>Money can be… bills, coins, digital coins, checks</p>
+      <p>We carry money … in a wallet, on bank cards, on a phone, on our watch.</p>
+      <p>Have you ever wondered… where money comes from? Why we need money? What money can buy? How to get more money?</p>
+      <p>Money can be really complicated even for grownups…</p>
+      <p>But it doesn’t have to be.</p>
+      <p>Let me explain.</p>
+      <p>Money is a tool that gets us things ----</p>
+      <p>Things we need or want.</p>
+      <p>For example…</p>
+      <p>A grownup bought this book for you!</p>
+      <p>guess how much money they paid to buy it?</p>
+      <p>One million dollars! (not really, it was about $20 bucks)</p>
+      <p>Imagine how many bananas you could buy with $20.</p> 
+      <p>20, 30, 40?!</p>
+      <p>That’s a lot of bananas!</p>
+      <p>Think about how many extra chores you would have to do…</p>
+      <p>Extra</p> 
+      <p>Extra</p>
+      <p>Extra</p>
+      <p>Extra</p> 
+      <p>Extra</p>
+      <p>Extra</p>
+      <p>Extra</p>
+      <p>Extra</p>
+      <p>Extra</p>
+      <p>To earn that much money?</p>
+      <p>Probably a lot. *</p>
+      <p>*note to grownup: have them do more chores ;)</p>
+      <p>You see, money has value to get things, both big and small, that we need or want.</p>
+      <p>So, how do you make money?</p>
+      <p>W</p>
+      <p>O</p>
+      <p>R</p>
+      <p>K</p>
+      <p>That’s right, smarty pants.</p>
+      <p>We can all get money by working.</p>
+      <p>Work is when someone spends their time…</p>
+      <p>Making</p>
+      <p>Doing</p>
+      <p>Selling</p>
+      <p>Teaching</p>
+      <p>Performing</p>
+      <p>Fixing</p>
+      <p>Helping…</p>
+      <p>Someone else, and they get money for it.</p>
+      <p>Work can mean being a…</p>
+      <p>Babysitter</p>
+      <p>Photographer</p>
+      <p>Uber driver</p>
+      <p>Doctor</p>
+      <p>Pilot</p>
+      <p>Baseball player</p>
+      <p>Or ballerina.</p>
+      <p>So, let’s say you did extra chores around the house last month, and your grownup paid you $20.</p>
+      <p>Woo hoo!</p> 
+      <p>High five!</p>
+      <p>You hand $20 now what should you do with it?</p>
+      <p>You could buy…</p>
+      <p>Toys</p>
+      <p>A movie ticket</p>
+      <p>Cheeseburgers</p>
+      <p>A room full of balloons</p>
+      <p>Some clothes</p>
+      <p>Or candy</p>
+      <p>But you can’t buy everything.</p>
+      <p>Now don’t worry, here are some things that do not cost money…</p>
+      <p>Like hugs</p>
+      <p>Laughs</p>
+      <p>Sunsets</p>
+      <p>Rainbows</p>
+      <p>But really, some things do cost a lot of money.</p>
+      <p>Like a bouncy house!</p>
+      <p>So, what do you do?</p>
+      <p>First, figure out what you need like food, clothes,</p>
+      <p>And school supplies.</p>
+      <p>Then, figure out what you want like toys, candy, video games, or a puppy.</p>
+      <p>Sometimes,   we only have enough money for the things we need.</p>
+      <p>And we have to wait and save up for the things we want.</p>
+      <p>You’re</p>
+      <p>S</p>
+      <p>M</p>
+      <p>A</p>
+      <p>R</p>
+      <p>T</p>
+      <p>And smart kids don’t spend all their money all at once.</p>
+      <p>You’re smart with money when…</p>
+      <p>You save a little,</p>
+      <p>Spend a little,</p>
+      <p>And give a little.</p>
+      <p>Think about it;</p>
+      <p>If you earn $50 and you don’t spend it…</p>
+      <p>When you earn another $50, you’ll have $100!</p>
+      <p>That’s called saving.</p>
+      <p>Now you could use some money to buy yourself a toy</p>
+      <p>That’s called spending.</p>
+      <p>And but one for a little kid who doesn’t have any toys.</p>
+      <p>That’s called giving.</p>
+      <p>See, money isn’t that complicated, right?!</p>
+      <p>So always</p>
+      <p>Save</p>
+      <p>Spend</p>
+      <p>& give</p>
+      <p>As long as you do that, having dinero will be fun!</p> 
+      <h5>Outro</h5>
+      <p>Now that your kid is ready to invest in</p>
+      <p>The stock market, you can retire and relax.</p>
+      <p>Seriously now, the conversation around money cannot stop here. Het them involved when them help plan your next trip.</p>
+      <p>Encourage them to be productive and earn their money, whether it’s helping out more around the house of creating stuff they could sell. They’ll thank you later for instilling that mindset in them.</p>
+      <p>Finally, you can help them manage their hard-earned money by teaching them the jar system. Give them three clear jars, and label the first one saving, the second one spending and the third one giving. Have them put money in each jar, with a specific goal in mind. This goal-based system is money. Not just for kids, but for adults as well. And you though this was just a “kids” book about money, huh?</p> 
+      <p>The end!</p>
+      <p>@akidsbookabout</p>
+      <p>Bye!</p>
+      <p>Goodbye!</p>
+      <p>Dinero.</p>
+      <p>Share your read*</p>
+      
+    </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>

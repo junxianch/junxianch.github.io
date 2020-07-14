@@ -1,0 +1,26 @@
+body {
+  background-color: rosybrown;
+}
+p {
+  color: black;
+  text-align: left;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color: magenta;
+}
+h3 {
+  font-weight: bold;
+  font-size: 30px
+}
+img{
+  width: 300px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: brown;
+  border-radius: 20px;
+}
+.code {
+  color:rgb(30,100,11)
+}

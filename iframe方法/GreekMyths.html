@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  background-color:#ddd;
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 80%; /* IE10 */
+  flex: 80%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* image, just for this example */
+.myimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.main p{ 
+  text-align: justify;}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+	}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Richie's Website</h1>
+  <p>A website created by Richie and his Mommy</p>
+</div>
+
+<div class="navbar">
+  <a href="./index.html">Home Page</a>
+  <a href="#">Read & Recite</a>
+  <a href="#">Code Learning</a>
+  <a href="#">Learning App</a>
+  <a href="#">Cartoon</a>
+  <a href="./GreekMyths.html">Typing</a>
+  <a href="#">Miscellaneous</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <ul>
+      <li>
+        <h3><a href="GreekMyths.html">Greek Myths</a></h3>
+      </li>
+      <li>
+        <h3><a href="KidsMoneyBook.html">Money Book</a></h3>
+      </li>
+        
+      </li>
+      <li>
+        <h3>Poem </h3>
+        <p><a href="https://codeprojects.org/Nvr3Mhyeq2098gxYXfILxJLfabNcSrBGCxRoa5PcO2Q/Sonnet%20XX.html">Sonnet XX</a></p>
+        <p><a href="https://codeprojects.org/Nvr3Mhyeq2098gxYXfILxJLfabNcSrBGCxRoa5PcO2Q/Sonnet%20XXI.html">Sonnet XXI</a></p>
+        <p><a href="https://codeprojects.org/Nvr3Mhyeq2098gxYXfILxJLfabNcSrBGCxRoa5PcO2Q/Sonnet%20XXV.html">Soneet XXV</a></p>
+      </li>
+
+    </ul>
+    </div>
+	
+    <div class="main">
+      <p> <span style="font-size: 20px; font-weight:bold;">Zeus</span>  
+        was everywhere ---- seen and unseen.
+        He changed his shape as easily as he changed the weather.
+        He moved the sun and the moon and put constellations in the sky.
+        He protected everyone----gods and mortals alike.
+        In anger Zeus hurled his thunderbolt to punish those who deserved it.
+        But he was also wise and fair and generous with his praise.
+        Zeus first married Metis, but he made Hera his queen.
+        Zeus and Hera bickered constantly, for Zeus had many wives, ----
+        Goddess, nymphs, and mortals ---- and had many children, too.
+        Hera was jealous of them all.
+      </p>
+      <p> <span style="font-size: 20px; font-weight:bold;">Hera</span> was beautiful and headstrong. Zeus won her when he turned
+        Himself into a cuckoo and he flew into her arms, sheltered from the rain.
+        Their wedding was so happy, it lasted three hundred years.
+        But things changed. Though Hera helped and advised Zeus
+        And bore him children, jealousy darkened her days.
+        She hated her husband’s adventures.   She schemed against his many wives
+        And children and caused them to hide in fear.
+        Once, in anger, Hera even dared to steal Zeus’s thunderbolt.   But his temper
+        Was stronger.   He hung her up from the sky with anvils tied to her feet,
+        And freed her only when she repented.</p>    
+      
+      <p> <span style="font-size: 20px; font-weight:bold;">Hephaestus</span> was born in bad luck. He was so weak and lame,
+        Hera took one look at him out and dropped of Olympus.
+        He fell for a day and was rescued by the sea goddess Thetis and her sisters.
+        They took him to their underwater grotto, and there he lived in secret.
+        Hephaestus’s body grew strong, though he could never walk.
+        He became a master craftsman and made beautiful objects of gold in his smithy.
+        Many he gave to the goddess as thanks for their kindness.
+        Nine years later Hera saw Thetis wearing an exquisite brooch
+        And demanded to know who had made it. When Hera heard it was Hephaestus,
+        She regretted her actions, she called him back to Olympus, allowed him
+        To marry Aphrodite,  and created and even bigger workshop for him.
+        Hephaestus became the worker of the gods, he made them golden palaces,
+        Chariots, weapons, and tools.  For himself he invented two golden maidens
+        Who helped him move about.  His artistry was the pride of Olympus.</p>
+            
+      <p> <span style="font-size: 20px; font-weight:bold;">Aphrodite</span> had no parents. She rose out of the sea
+        On a cushion of foam.    She was beautiful, love bloomed around her -----
+        And sometimes jealousy.
+        Despite Hera’s protests Zeus gave Aphrodite a throne on Olympus
+        And made her Hephaestus’s wife.   But she wasn’t always true to her
+        Homely husband, for Aphrodite wore a magic girdle that made love
+        Flare up among the gods.   Even Ares was a victim of her beauty,
+        Though he loved war more.</p>
+      
+        <p> <span style="font-size: 20px; font-weight:bold;">Eros</span> was wild and mischievous.   Some say he was born at the
+        Beginning of the time.   Some say he was born of Aphrodite and Ares.
+        Eros’s greatest delight was to zip around shooting arrows of desire
+        Into innocent victims.    Instantly they fell in love, whether they
+        Wanted to or not.   And no one could stop him, not even Zeus.</p>
+        
+        <p> <span style="font-size: 20px; font-weight:bold;">Ares</span> was a god not even a mother could like.
+        He was a cruel, bad-tempered coward who loved war.
+        The bloodier the battle, the better.    In defeat he was a bad loser.
+        If he was wounded, he startled even the gods with his pitiful tears.
+        Ares stirred up trouble wherever he went.   Except for Aphrodite,
+        No one wanted him around.</p>
+        
+        <p> <span style="font-size: 20px; font-weight:bold;">Poseidon</span> was moody. His temper could be as violent
+        As the seas he ruled. He shook his trident, and leaping waves
+        Flooded the land. He struck the earth, and mountains erupted.
+        Poseidon created the first house, from a rock, with one blow.
+        He raced the waves and traveled to Olympus in his golden
+        Horse-drawn chariot. Most of the time Poseidon lived in a golden
+        Underwater palace with his queen, Amphitrite, a lovely sea goddess.
+        They had three children together, though Poseidon had many more.
+        Like Zeus, he could not resist goddesses, nymphs, or mortals.</p>
+        
+        <p> <span style="font-size: 20px; font-weight:bold;">Athena</span> had a most unusual birth. Zeus had been warned
+        That if Metis bore a son, he would depose Zeus just as Zeus and Cronus
+        Had deposed their own fathers. Though Zeus needed wise Metis’s advice,
+        He took no chances. One day he lured Metis close with his sweet words----
+        And swallowed her.
+        Soon after, Zeus was hit by a horrible headache. He howled for help.
+        Hephaestus fetched his ax and split open Zeus’s head. Out sprang Athena,
+        Armed for action. Immediately she became her father’s favorite advisor.
+        <p>Athena was a warrior who hated war. She admired courage and
+          Fairness and sought peaceful ways to settle fight. She also invented
+          Many things----the flute, the trumpet, farm tools, and the olive tree.
+          She taught the arts of cooking, spinning, and weaving.
+            Athena had no time to marriage.</p>
+
+            <p> <span style="font-size: 20px; font-weight:bold;">Hermes</span> was born in ready for action. As his mother slept in in his cave,
+            He slipped out his cradle and went looking for adventure.
+            He saw a tortoise, killed it, and invented the lyre from its shell.
+            As he taught himself to play the instrument, he spied his brother Apollo’s cows----
+            And stole them. Cunningly he swept away their hoofprints, and Apollo
+            Couldn’t find it anywhere. 
+            When little Hemes confessed his trick, his brother was furious.
+            But Hermes was shrewd. He knew Apollo loved music, and offered him the lyre
+            For the cows. Apollo have him the cows and more, and left happily with the lyre.
+            Zeus was amused by his clever son but scolded him too.
+            Hermes promised to not to steal or lie again----not much, anyway-----if Zeus gave
+            Him a throne on Olympus. Zeus couldn’t resist. Hermes could talk anyone
+            Into anything.
+            Hermes grew up to be Zeus’s personal messenger and helper.
+            He traveled as fast as the wind on winged sandals. He guided souls of the dead 
+            To Hades and brought good luck to travelers everywhere.</p>
+            
+            <p> <span style="font-size: 20px; font-weight:bold;">Artemis</span> was just minutes old when she helped with the birth
+            Of her twin, Apollo. Jealous Hera had been chasing their mother, Leto,
+            All over the world. Artemis found her a safe place to rest, carried there by
+            The South wind.
+            One day her proud father asked Artemis what presents she would like.
+            Artemis knew exactly what she wanted. She asked for a bow and arrows
+            Like Apollo’s, so they could hunt together. She asked for a band
+            Of nymphs for companions. She asked to stay young forever and never
+            To have to marry. Zeus granted all her wishes ---- and more.
+            Artemis was determined and fought for what she wanted.
+            Her arrows stung, and she could cause suffering.
+            But she loved animals and children and protected them.</p>
+
+            <p> <span style="font-size: 20px; font-weight:bold;">Apollo</span> grew up quickly, as gods do. When he was four days old,
+He asked Hephaestus to make him a silver bow and arrows. Then off he went,
+To kill the dreaded serpent Python, which Hera had sent to kill his mother.
+Apollo was dangerous with his arrows. He punished the guilty -----
+Sometimes with the help of Artemis, his twin sister. They were close friends,
+And both were great archers.
+Yet Apollo was thoughtful. He advised others that one should search
+To know one’s self. He also believed one should not overdo anything.
+He said: Pan Metron Ariston, which means ”everything in moderation.”
+Apollo had a tender side to him, too. He healed the sick, cared for animals.
+And brought delight with his music. No one played the lyre as well.
+And no one sang as sweetly as Apollo.</p>
+
+<p> <span style="font-size: 20px; font-weight:bold;">Hades</span> was as grim and gloomy as the Underworld, where he lived. 
+He was also rich, for all the treasures in the ground were his.
+Hades rarely left his Kingdom of the Dead. When Hermes brought
+Souls of the dead to him, he prodded the unwilling ones into shadows.
+.
+He saw none escaped. Cerberus, his three-headed dog, stood guard
+At the locked gate.
+But Hades lonely and wanted a wife. Zeus said he could have.
+His daughter Persephone. But Zeus knew she would not want part
+With her mother, Demeter, to live in Hades’s gloomy kingdom.
+Nor let Demeter let her go. So Zeus told Hades to kidnap Persephone.
+Hades rode up into the brilliant sunshine ---- and that is what he did.</p>
+
+<p> <span style="font-size: 20px; font-weight:bold;">Demeter</span> and <span style="font-size: 20px; font-weight:bold;">Persephone</span> were always together.
+  Gentle Demeter loved her daughter and took her wherever she went
+  As she tended her grain fields.
+  But one day their joy vanished. As Persephone was out with friends
+  Picking flowers, she disappeared. No one saw what happened ----
+  Not even Demeter. She did not see Hades charge up in his chariot and snatch
+  The lovely Persephone. She did not see him take her down,
+  Down to the dark Underworld, to make her his queen.
+  She did not hear her scream and cry for her mother.
+  Demeter searched the earth for Persephone. She grew haggard
+  And neglected ger fields. At last she heard what had happened.
+  Furious, she told Zeus that until Persephone was returned, she would cause
+  A famine ---- and she did. Soon fields grew barren, crops and trees withered,
+  Animals and people staved. Zeus saw that Demeter meant her words.
+  He sent Hermes to fetch Persephone from Hades.
+  But Persephone had been tricked into eating four pomegranate seeds ------
+  The food of dead. That meant she could not leave Hades forever.
+  For four bleak months a year ---- one for every seed ---- she had return
+  To the Underworld as Hades’s queen. Then spring came, the land turned green,
+  And flowers bloomed ----- for Demeter and Persephone were together again.</p>
+  
+  <p> <span style="font-size: 20px; font-weight:bold;">Dionysus</span>’s mother was struck dead by lightning before he was born.
+It was an accident caused by jealous Hera. Zeus rescued his unborn son
+And sewed him up in his own thigh, and there he stayed until he was born.
+Dionysus was hidden from Hera’s sight and was raised among nymphs
+And wild animals. But eventually Hera found him and drove him mad.
+Dionysus traveled the world over, teaching the art of wine making.
+With him went a band of wild satyrs and maenads. They danced in a frenzy
+And raised a rumpus wherever they went. Hera had driven them mad too.
+Later Dionysus recovered and, despite Hera’s protests, was welcomed
+Into Olympus. Kind Hestia have up her throne for him.
+She was comfortable by the hearth.</p>
+
+  
+            
+
+
+    </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
